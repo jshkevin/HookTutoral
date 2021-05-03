@@ -4,6 +4,7 @@ const Info = () => {
   const [name, setName] = useState('');
   const [nickname, setNickname] = useState('');
 
+
   const onChangeName = e => {
     setName(e.target.value);
   };
