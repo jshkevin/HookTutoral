@@ -6,6 +6,8 @@ import CounterFunction from './CounterFunction';
 import ContextSample from './Context';
 import CounterRecucer from './CounterReducer';
 import Layout from './Layout';
+import FormContainer from './FormContainer';
+
 
 
 function TextInputWithFocusButton() {
@@ -26,15 +28,16 @@ function TextInputWithFocusButton() {
 const App = () => {
   return (
     <div>
-      <Layout/>
+      <FormContainer/>
+      {/* <Layout/> */}
       {/* <TextInputWithFocusButton/> */}
       {/* <InputSample/> */}
-      {/* <ContextSample/>
-      <CounterClass/>
-      <CounterFunction/>
-      <CounterRecucer/>
-      <Info/>
-      <Average/> */}
+      {/* <ContextSample/> */}
+      {/* <CounterClass/> */}
+      {/* <CounterFunction/> */}
+      {/* <CounterRecucer/> */}
+      {/* <Info/> */}
+      {/* <Average/> */}
     </div>
   )
 }
